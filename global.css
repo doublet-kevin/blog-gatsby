@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply bg-neutral-900 px-8
+    @apply bg-neutral-900
 }
 
 header {
@@ -13,5 +13,9 @@ header {
 header,
 section,
 footer {
-    @apply m-auto max-w-7xl text-white py-8
+    @apply m-auto text-white py-8
+}
+
+.container {
+    @apply mx-auto max-w-7xl px-8 xl:p-0;
 }
